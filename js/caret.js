@@ -1,25 +1,38 @@
-const $ = id => document.getElementById(id);
-let cursor;
+function $(elid) {
+    return document.getElementById(elid);
+  }
+  
+var cursor;
+window.onload = init;
 
-window.onload = () => {
+function init() {
   cursor = $("cursor");
   cursor.style.left = "0px";
-};
+}
 
-const nl2br = txt => txt.replace(/\n/g, '');
+function nl2br(txt) {
+  return txt.replace(/\n/g, '');
+}
 
 function typeIt(from, e) {
-  if (!pw) $("typer").innerHTML = nl2br(from.value);
+  e = e || window.event;
+  var w = $("typer");
+  var tw = from.value;
+  if (!pw){
+    w.innerHTML = nl2br(tw);
+  }
 }
 
 function moveIt(count, e) {
-  const kc = (e || window.event).keyCode || e.which;
-  const pos = parseInt(cursor.style.left);
-  const step = 10;
-  const min = -((count - 1) * step);
-
-  if (kc === 37 && pos >= min) cursor.style.left = (pos - step) + "px";
-  if (kc === 39 && pos + step <= 0) cursor.style.left = (pos + step) + "px";
+  e = e || window.event;
+  var keycode = e.keyCode || e.which;
+  if (keycode == 37 && parseInt(cursor.style.left) >= (0 - ((count - 1) * 10))) {
+    cursor.style.left = parseInt(cursor.style.left) - 10 + "px";
+  } else if (keycode == 39 && (parseInt(cursor.style.left) + 10) <= 0) {
+    cursor.style.left = parseInt(cursor.style.left) + 10 + "px";
+  }
 }
 
-const alert = txt => console.log(txt);
+function alert(txt) {
+  console.log(txt);
+}
