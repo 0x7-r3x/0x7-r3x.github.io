@@ -60,7 +60,7 @@ help = [
 ];
 
   banner = [
-        '<span class="index">rex (0x7_r3x). no rights reserved.</span>',
+        '<span class="index">rex (0x7_r3x). ©2025 | no rights reserved.</span>',
         "open source;",
         " ________________________________________",
         "/ Machines never cheat!                          \\",
