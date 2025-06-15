@@ -1,37 +1,33 @@
-var youtube = "https://www.youtube.com/@aihxdev/";
-var x = "https://www.x.com/aihxdev/";
+var youtube = "https://www.youtube.com/@0x7_r3x/";
+var x = "https://www.x.com/0x7_r3x/";
 var password = "a810b5df8e939419ad5a730383a4f6b7b150d3635a37c1b2ca08f07b1102bbc5";
-var linkedin = "https://www.linkedin.com/in/aihxdev/";
-var instagram = "https://www.instagram.com/aihxdev/";
-var github = "https://github.com/aihxdev/";
-var games = "https://github.com/aihxdev/flashmatrix";
-var h1 = "https://hackerone.com/aihxdev/";
-var email = 'mailto:aihxdev@proton.me';
+var linkedin = "https://www.linkedin.com/in/0x7_r3x/";
+var instagram = "https://www.instagram.com/0x7_r3x/";
+var github = "https://github.com/0x7-r3x/";
+var games = "https://minecraft.net/";
+var h1 = "https://hackerone.com/0x7_r3x/";
+var email = 'mailto:0xt_r3x@intigriti.me';
 
 whois = [
   "<br>",
-  "Hey, I'm AIHxDev $#.!",
-  "I'm a AIML, #@(k3r dev and cc, who steals engaging websites like this one",
-  "and makes YouTube videos about computer science & ai development.",
-  "more details are threat to yourself only",
-  "yeah like this terminal website was stolen, don't more here I may stole your identity too.",
+  "Bounty Hunter",
   "<br>"
 ];
 
 whoami = [
   "<br>",
-  "Most advanced machine developed and created by [Ukwn], btter not to know",
+  "hey, myself I'm Bounty Hunter, love to crack computers",
   "<br>"
 ];
 
 social = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/@aihxdev' + "</a>",
-  'x              <a href="' + x + '" target="_blank">x/@aihxdev' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aihxdev' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/aihxdev' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/aihxdev' + "</a>",
-  'hackerone      <a href="' + h1 + '" target="_blank">hackerone/aihxdev' + "</a>",
+  'youtube        <a href="' + youtube + '" target="_blank">youtube/@0x7_r3x' + "</a>",
+  'x              <a href="' + x + '" target="_blank">x/@0x7_r3x' + '</a>',
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/0x7_r3x' + "</a>",
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/0x7_r3x' + '</a>',
+  'github         <a href="' + github + '" target="_blank">github/0x7-r3x' + "</a>",
+  'hackerone      <a href="' + h1 + '" target="_blank">hackerone/0x7_r3x' + "</a>",
   "<br>"
 ];
 
@@ -43,13 +39,13 @@ secret = [
 
 projects = [
   "<br>",
-  'games         <a href="' + games + '" target="_blank">https://github.com/aihxdev/flashmatrix' + "</a>",
+  'games         <a href="' + games + '" target="_blank">https://monkeytype.com/' + "</a>",
   "<br>"
 ];
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is aihxdev?',
+  '<span class="command">whois</span>          Who is rex?',
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">video</span>          View YouTube videos',
   '<span class="command">social</span>         Display social networks',
@@ -60,49 +56,21 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
-  '<span class="command">ledger</span>         Digital Ledger',
   "<br>",
 ];
 
   banner = [
-        '<span class="index">AIHxEnt (0xA1h) A AIHxEnt Corporation. no rights reserved.</span>',
+        '<span class="index">rex (0x7_r3x). no rights reserved, ©2025.</span>',
         "open source;",
         " ________________________________________",
-        "/ Machines never cheat!                          \\",
-        "\\                  -- ai                     /",
-        "\\                                        /",
-        " ----------------------------------------",
-        "    \\",
-        "                    ___",
-        "                  //  \\\\",
-        "                 ((   ||",
-        "                   \\\\_|//",
-        "                 /_====_\\",
-        "                / /    \\ \\",
-        "               /________\\",
-        "  '# __| |_________________________________________| |__'",
-        "    '# __   _________________________________________   __'",
-        "    '#   | |                                         | |  '",
-        "    '#   | |    _    ___ _   _      ____             | |  '",
-        "    '#   | |   / \\  |_ _| | | |_  _|  _ \\  _____   __| |  '",
-        "    '#   | |  / _ \\  | || |_| \\ \\/ / | | |/ _ \\ \\ / /| |  '",
-        "    '#   | | / ___ \\ | ||  _  |>  <| |_| |  __/\\ V / | |  '",
-        "    '#   | |/_/   \\_\\___|_| |_/_/\\_\\____/ \\___| \\_/  | |  '",
-        "    '# __| |_________________________________________| |__'",
-        "    '# __   _________________________________________   __'",
-        "    '#   | |                                         | |  '",
+        "/ Machines never cheat!
         '<span class="color2">hax terminal a stolen one.</span>',
     "<span class=\"color2\">you know wt todo, those who don't will scream for -</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
     ];
 
     projects = [
       "<br>",
-      'Apr 5, 2024 created this website',
-      '-12th april 2024 | Welcome to my digital ledger!',
-      'Date Apr 12 : ',
-      'Apr 12, 2024 joined huntr.com ',
-      'Apr 12, 2024 started practicing bug bounty',
-      'Apr 12, 2024 reached level 12 in monkeytype.com',
+      'June 15, 2025 built this website',
       "<br>"
     ];
     
