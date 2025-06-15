@@ -118,7 +118,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:aihxdev@proton.me">aihxdev@proton.me</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:0xt_r3x@intigriti.me">0xt_r3x@intigriti.me</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
