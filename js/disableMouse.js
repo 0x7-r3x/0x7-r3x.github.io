@@ -1,4 +1,7 @@
-document.addEventListener('mousemove', e => {
-  e.preventDefault();
-  e.stopPropagation();
-});
+function disableMouse(event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+
+  document.addEventListener('mousemove', disableMouse);
+  
