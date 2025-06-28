@@ -10,13 +10,13 @@ var email = 'mailto:0xt_r3x@intigriti.me';
 
 whois = [
   "<br>",
-  "Hey, I'm B0unty Hunter!",
+  "Yo, I'm surfer of treches in the internet for hunting bugs, building things, chasing systems, Ever since I was a child I been hunter , hunting for things I want to kill them for me to level-up and seek growth, well hacking is never ending & the deapth, I was meant to live in dark trenches of the world of Internet.",
   "<br>"
 ];
 
 whoami = [
   "<br>",
-  "--",
+  "rex",
   "<br>"
 ];
 
