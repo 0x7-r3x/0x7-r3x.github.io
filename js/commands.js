@@ -16,9 +16,25 @@ whois = [
 
 whoami = [
   "<br>",
-  '<a href="https://0x7-r3x.github.io/projects/rex.html" target="_blank">rex</a>',
+  "intro: bounty hunter & hacker",
+  "",
+  "[me]",
+  "> Skills place",
+  "",
+  "OS",
+  "Linux (Artix, Arch, Kali, Ubuntu), Windows 10 / 11",
+  "",
+  "LANGUAGES",
+  "Bash, C, HTML/CSS, JS, Python, TensorFlow (on it)",
+  "",
+  "TOOLS",
+  "Git, Vim, Linux, Burp Suite & Kaido",
+  "",
+  "HACKING",
+  "Vim, Nmap, Metasploit, Hydra, JohnRipper, Bluesniff",
   "<br>"
 ];
+
 
 social = [
   "<br>",
