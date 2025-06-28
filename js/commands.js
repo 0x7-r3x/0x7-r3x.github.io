@@ -68,9 +68,9 @@ help = [
     "<span class=\"color2\">you know wt todo, those who don't will scream for -</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
     ];
 
-    projects = [
-      "<br>",
-      'June 15, 2025 created this website',
-      "<br>"
-    ];
-    
+projects = [
+  "<br>",
+  'June 15, 2025 created this <a href="https://github.com/0x7-r3x/0x7-r3x.github.io" target="_blank">website</a>',
+  "<br>"
+];
+
