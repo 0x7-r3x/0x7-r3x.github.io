@@ -70,7 +70,8 @@ help = [
 
 projects = [
   "<br>",
-  'June 15, 2025 created this <a href="https://github.com/0x7-r3x/0x7-r3x.github.io" target="_blank">website</a>',
+  '19-12-20 : <a href="home-lab.html" target="_blank">my home-lab</a>',
+  '15-06-25 : <a href="https://github.com/0x7-r3x/0x7-r3x.github.io" target="_blank">website</a>',
   "<br>"
 ];
 
