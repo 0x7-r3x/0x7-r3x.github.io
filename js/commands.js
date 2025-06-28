@@ -16,7 +16,7 @@ whois = [
 
 whoami = [
   "<br>",
-  "rex",
+  '<a href="https://0x7-r3x.github.io/projects/rex.html" target="_blank">rex</a>',
   "<br>"
 ];
 
