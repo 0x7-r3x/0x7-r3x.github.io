@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>rex</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .question {
+      color: #00ff00;
+    }
+
+    h1 {
+      color: #00ffff;
+    }
+
+    .two-column {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 20px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .command {
+      width: 120px; /* Adjust for consistent left column */
+      color: #00ff00;
+    }
+
+    .desc {
+      flex: 1;
+      color: white;
+    }
+
+    a {
+      color: #0ff;
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      .command {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>rex</h1>
+  <p class="question"><strong>intro:</strong> bounty hunter & hacker</p>
+  <p class="question"><strong>[me]</strong><br>&gt; Skills place</p>
+
+  <div class="two-column">
+    <div class="row"><div class="command">OS</div><div class="desc">Linux (Artix, Arch, Kali, Ubuntu), Windows 10 / 11</div></div>
+    <div class="row"><div class="command">LANGUAGES</div><div class="desc">Bash, C, HTML/CSS, JS, Python, TensorFlow (on it)</div></div>
+    <div class="row"><div class="command">TOOLS</div><div class="desc">Git, Vim, Linux, Burp Suite & Kaido</div></div>
+    <div class="row"><div class="command">HACKING</div><div class="desc">Vim, Nmap, Metasploit, Hydra, JohnRipper, Bluesniff</div></div>
+  </div>
+
+  <br><br>
+  <a href="index.html">← Back to terminal</a>
+
+</body>
+</html>
