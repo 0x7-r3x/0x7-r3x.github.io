@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ9TR5T9S2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
       gtag('config', 'G-QJ9TR5T9S2');
     </script>
@@ -16,16 +14,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>rex | Terminal</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="img/fav-icon.png" />
 
     <style>
-      body {
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
         margin: 0;
         padding: 0;
         font-family: monospace;
         background-color: black;
         color: white;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #terminal {
+        flex: 1;
+        overflow-y: auto;
+        padding: 20px;
+        margin-bottom: 60px; /* enough space for command bar */
       }
 
       #command {
@@ -34,7 +47,7 @@
         width: 100%;
         background-color: #000;
         padding: 10px;
-        box-sizing: border-box;
+        z-index: 100;
       }
 
       #texter {
@@ -63,7 +76,8 @@
         }
 
         #terminal {
-          margin-bottom: 80px; /* give space for command bar */
+          margin-bottom: 100px;
+          padding: 10px;
         }
 
         #texter {
