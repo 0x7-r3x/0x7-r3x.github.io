@@ -14,7 +14,6 @@
       font-family: monospace;
       background: black;
       color: #00ff00;
-      overflow: hidden;
     }
 
     body::before {
@@ -25,23 +24,18 @@
       background-image: url("img/terminal.png");
       background-size: cover;
       background-position: center;
-      opacity: 0.15; /* control how dark the image is */
+      opacity: 0.15;
       z-index: -1;
     }
 
     #terminal {
-      height: calc(100vh - 60px);
-      overflow-y: auto;
       padding: 20px;
     }
 
     #command {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 10px;
-      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      gap: 5px;
     }
 
     #texter {
@@ -53,7 +47,7 @@
       font-size: 16px;
       outline: none;
       resize: none;
-      height: 40px;
+      height: 24px;
     }
 
     #liner {
@@ -62,10 +56,15 @@
       font-size: 16px;
     }
 
+    .cursor {
+      display: inline-block;
+      margin-left: 2px;
+    }
+
     @media screen and (max-width: 600px) {
       #texter {
         font-size: 14px;
-        height: 36px;
+        height: 22px;
       }
       #liner {
         font-size: 14px;
@@ -73,21 +72,22 @@
     }
   </style>
 </head>
-<body>
+<body onclick="document.getElementById('texter').focus();">
+
   <div id="terminal">
     <a id="before"></a>
-  </div>
 
-  <div id="command" onclick="document.getElementById('texter').focus();">
-    <textarea
-      id="texter"
-      onkeyup="typeIt(this, event)"
-      onkeydown="typeIt(this, event); moveIt(this.value.length, event)"
-      onkeypress="typeIt(this, event);"
-      autofocus
-    ></textarea>
-    <div id="liner">
-      <span id="typer"></span><b class="cursor" id="cursor">█</b>
+    <div id="command">
+      <textarea
+        id="texter"
+        onkeyup="typeIt(this, event)"
+        onkeydown="typeIt(this, event); moveIt(this.value.length, event)"
+        onkeypress="typeIt(this, event);"
+        autofocus
+      ></textarea>
+      <div id="liner">
+        <span id="typer"></span><b class="cursor" id="cursor">█</b>
+      </div>
     </div>
   </div>
 
