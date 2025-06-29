@@ -87,7 +87,8 @@ function commander(cmd) {
       loopLines(whois, "color2 margin", 80);
       break;
     case "whoami":
-      loopLines(whoami, "color2 margin", 80);
+      addLine("Opening rex.html...", "color2", 80);
+      newTab("https://0x7-r3x.github.io/projects/rex.html");
       break;
     case "video":
       addLine("Opening YouTube...", "color2", 80);
