@@ -1,6 +1,6 @@
 # terminal-website
 
-a terminal-style website. no bloat.
+a terminal-style website. no bloat, still in progress.
 
 ## features
 
