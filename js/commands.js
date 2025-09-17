@@ -88,6 +88,8 @@ projects = [
   "<br>",
   '19-12-20 : <a href="https://0x7-r3x.github.io/projects/home-lab.html" target="_blank">my home-lab</a>',
   '15-06-25 : <a href="https://github.com/0x7-r3x/0x7-r3x.github.io" target="_blank">website</a>',
+  '16-09-25 : <a href="https://github.com/0x7-r3x/currenciesX" target="_blank">currencies-converter,
   "<br>"
 ];
+
 
